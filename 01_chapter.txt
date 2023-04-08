@@ -1,4 +1,7 @@
 Resumen de Machine Learning:
-1. Supervised Learning.
-2. Unsupervised Learning.
-3. Reinforcement Learning.
+
+1. Supervised Learning: he main goal in supervised learning is to create a predictive model based on a set of labeled instances, known as the training dataset
+
+2. Unsupervised Learning: In case we can’t get a dataset with labeled instances, unsupervised learning algorithms can help us discover hidden structures on our data
+
+3. Reinforcement Learning: The goal of reinforcement learning is to create an intelligent agent that interacts with its environment. That agent gets rewarded for every correct decision it makes, thus learning to perform various actions via trial-and-error
