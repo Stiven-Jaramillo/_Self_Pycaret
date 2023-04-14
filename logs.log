@@ -12628,3 +12628,162 @@ Alternately, you can install this by running `pip install pycaret[models]`
 2023-04-14 01:41:02,817:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
 2023-04-14 01:41:02,817:INFO:finalize_model() succesfully completed......................................
 2023-04-14 01:41:02,917:WARNING:predict_model >> Prediction Indices do not match test indices. Metrics will not be displayed.
+2023-04-14 01:41:48,138:INFO:Initializing finalize_model()
+2023-04-14 01:41:48,139:INFO:finalize_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000001B1F4217850>, estimator=ExponentialSmoothing(seasonal='mul', sp=12, trend='add'), fit_kwargs=None, groups=None, model_only=True, experiment_custom_tags=None, display=None)
+2023-04-14 01:41:48,141:INFO:Finalizing ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:41:48,142:INFO:Initializing create_model()
+2023-04-14 01:41:48,142:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000001B1F4217850>, estimator=ExponentialSmoothing(seasonal='mul', sp=12, trend='add'), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, kwargs={})
+2023-04-14 01:41:48,142:INFO:Checking exceptions
+2023-04-14 01:41:48,143:INFO:Importing libraries
+2023-04-14 01:41:48,143:INFO:Copying training dataset
+2023-04-14 01:41:48,144:INFO:Defining folds
+2023-04-14 01:41:48,144:INFO:Declaring metric variables
+2023-04-14 01:41:48,144:INFO:Importing untrained model
+2023-04-14 01:41:48,144:INFO:Declaring custom model
+2023-04-14 01:41:48,145:INFO:Exponential Smoothing Imported successfully
+2023-04-14 01:41:48,145:INFO:Starting cross validation
+2023-04-14 01:41:48,146:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+            18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+            35, 36],
+           dtype='int64', is_relative=True),
+            initial_window=None, step_length=36), n_jobs=-1
+2023-04-14 01:41:48,364:INFO:Calculating mean and std
+2023-04-14 01:41:48,364:INFO:Creating metrics dataframe
+2023-04-14 01:41:48,367:INFO:Finalizing model
+2023-04-14 01:41:48,509:INFO:Uploading results into container
+2023-04-14 01:41:48,510:INFO:master_model_container: 31
+2023-04-14 01:41:48,510:INFO:display_container: 11
+2023-04-14 01:41:48,510:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:41:48,510:INFO:create_model() successfully completed......................................
+2023-04-14 01:41:48,609:INFO:master_model_container: 31
+2023-04-14 01:41:48,609:INFO:display_container: 10
+2023-04-14 01:41:48,610:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:41:48,610:INFO:finalize_model() succesfully completed......................................
+2023-04-14 01:42:09,009:INFO:Initializing create_model()
+2023-04-14 01:42:09,009:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000001B1F4217850>, estimator=exp_smooth, fold=None, round=4, cross_validation=True, predict=True, fit_kwargs=None, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=True, system=True, add_to_model_list=True, metrics=None, display=None, kwargs={})
+2023-04-14 01:42:09,009:INFO:Checking exceptions
+2023-04-14 01:42:09,010:INFO:Preparing display monitor
+2023-04-14 01:42:09,018:INFO:Importing libraries
+2023-04-14 01:42:09,018:INFO:Copying training dataset
+2023-04-14 01:42:09,021:INFO:Defining folds
+2023-04-14 01:42:09,021:INFO:Declaring metric variables
+2023-04-14 01:42:09,025:INFO:Importing untrained model
+2023-04-14 01:42:09,029:INFO:Exponential Smoothing Imported successfully
+2023-04-14 01:42:09,038:INFO:Starting cross validation
+2023-04-14 01:42:09,038:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+            18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+            35, 36],
+           dtype='int64', is_relative=True),
+            initial_window=None, step_length=36), n_jobs=-1
+2023-04-14 01:42:09,229:INFO:Calculating mean and std
+2023-04-14 01:42:09,230:INFO:Creating metrics dataframe
+2023-04-14 01:42:09,237:INFO:Finalizing model
+2023-04-14 01:42:09,374:INFO:Uploading results into container
+2023-04-14 01:42:09,374:INFO:Uploading model into container now
+2023-04-14 01:42:09,381:INFO:master_model_container: 32
+2023-04-14 01:42:09,381:INFO:display_container: 11
+2023-04-14 01:42:09,381:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:42:09,381:INFO:create_model() successfully completed......................................
+2023-04-14 01:42:12,883:INFO:Initializing finalize_model()
+2023-04-14 01:42:12,884:INFO:finalize_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000001B1F4217850>, estimator=ExponentialSmoothing(seasonal='mul', sp=12, trend='add'), fit_kwargs=None, groups=None, model_only=True, experiment_custom_tags=None, display=None)
+2023-04-14 01:42:12,886:INFO:Finalizing ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:42:12,887:INFO:Initializing create_model()
+2023-04-14 01:42:12,887:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000001B1F4217850>, estimator=ExponentialSmoothing(seasonal='mul', sp=12, trend='add'), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, kwargs={})
+2023-04-14 01:42:12,887:INFO:Checking exceptions
+2023-04-14 01:42:12,888:INFO:Importing libraries
+2023-04-14 01:42:12,888:INFO:Copying training dataset
+2023-04-14 01:42:12,889:INFO:Defining folds
+2023-04-14 01:42:12,889:INFO:Declaring metric variables
+2023-04-14 01:42:12,889:INFO:Importing untrained model
+2023-04-14 01:42:12,889:INFO:Declaring custom model
+2023-04-14 01:42:12,889:INFO:Exponential Smoothing Imported successfully
+2023-04-14 01:42:12,889:INFO:Starting cross validation
+2023-04-14 01:42:12,890:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+            18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+            35, 36],
+           dtype='int64', is_relative=True),
+            initial_window=None, step_length=36), n_jobs=-1
+2023-04-14 01:42:13,123:INFO:Calculating mean and std
+2023-04-14 01:42:13,123:INFO:Creating metrics dataframe
+2023-04-14 01:42:13,126:INFO:Finalizing model
+2023-04-14 01:42:13,280:INFO:Uploading results into container
+2023-04-14 01:42:13,280:INFO:master_model_container: 32
+2023-04-14 01:42:13,280:INFO:display_container: 12
+2023-04-14 01:42:13,280:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:42:13,280:INFO:create_model() successfully completed......................................
+2023-04-14 01:42:13,386:INFO:master_model_container: 32
+2023-04-14 01:42:13,387:INFO:display_container: 11
+2023-04-14 01:42:13,387:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:42:13,387:INFO:finalize_model() succesfully completed......................................
+2023-04-14 01:42:13,517:WARNING:predict_model >> Prediction Indices do not match test indices. Metrics will not be displayed.
+2023-04-14 01:42:58,331:INFO:Initializing finalize_model()
+2023-04-14 01:42:58,332:INFO:finalize_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000001B1F4217850>, estimator=ExponentialSmoothing(seasonal='mul', sp=12, trend='add'), fit_kwargs=None, groups=None, model_only=True, experiment_custom_tags=None, display=None)
+2023-04-14 01:42:58,334:INFO:Finalizing ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:42:58,335:INFO:Initializing create_model()
+2023-04-14 01:42:58,335:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000001B1F4217850>, estimator=ExponentialSmoothing(seasonal='mul', sp=12, trend='add'), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, kwargs={})
+2023-04-14 01:42:58,335:INFO:Checking exceptions
+2023-04-14 01:42:58,336:INFO:Importing libraries
+2023-04-14 01:42:58,336:INFO:Copying training dataset
+2023-04-14 01:42:58,337:INFO:Defining folds
+2023-04-14 01:42:58,337:INFO:Declaring metric variables
+2023-04-14 01:42:58,337:INFO:Importing untrained model
+2023-04-14 01:42:58,337:INFO:Declaring custom model
+2023-04-14 01:42:58,338:INFO:Exponential Smoothing Imported successfully
+2023-04-14 01:42:58,339:INFO:Starting cross validation
+2023-04-14 01:42:58,340:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+            18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+            35, 36],
+           dtype='int64', is_relative=True),
+            initial_window=None, step_length=36), n_jobs=-1
+2023-04-14 01:42:58,560:INFO:Calculating mean and std
+2023-04-14 01:42:58,560:INFO:Creating metrics dataframe
+2023-04-14 01:42:58,564:INFO:Finalizing model
+2023-04-14 01:42:58,701:INFO:Uploading results into container
+2023-04-14 01:42:58,702:INFO:master_model_container: 32
+2023-04-14 01:42:58,702:INFO:display_container: 13
+2023-04-14 01:42:58,702:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:42:58,702:INFO:create_model() successfully completed......................................
+2023-04-14 01:42:58,805:INFO:master_model_container: 32
+2023-04-14 01:42:58,805:INFO:display_container: 12
+2023-04-14 01:42:58,805:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:42:58,805:INFO:finalize_model() succesfully completed......................................
+2023-04-14 01:42:58,937:WARNING:predict_model >> Prediction Indices do not match test indices. Metrics will not be displayed.
+2023-04-14 01:43:16,005:INFO:Initializing finalize_model()
+2023-04-14 01:43:16,005:INFO:finalize_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000001B1F4217850>, estimator=ExponentialSmoothing(seasonal='mul', sp=12, trend='add'), fit_kwargs=None, groups=None, model_only=True, experiment_custom_tags=None, display=None)
+2023-04-14 01:43:16,008:INFO:Finalizing ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:43:16,009:INFO:Initializing create_model()
+2023-04-14 01:43:16,009:INFO:create_model(self=<pycaret.time_series.forecasting.oop.TSForecastingExperiment object at 0x000001B1F4217850>, estimator=ExponentialSmoothing(seasonal='mul', sp=12, trend='add'), fold=None, round=4, cross_validation=True, predict=True, fit_kwargs={}, groups=None, refit=True, probability_threshold=None, experiment_custom_tags=None, verbose=False, system=False, add_to_model_list=False, metrics=None, display=None, kwargs={})
+2023-04-14 01:43:16,009:INFO:Checking exceptions
+2023-04-14 01:43:16,010:INFO:Importing libraries
+2023-04-14 01:43:16,010:INFO:Copying training dataset
+2023-04-14 01:43:16,011:INFO:Defining folds
+2023-04-14 01:43:16,011:INFO:Declaring metric variables
+2023-04-14 01:43:16,011:INFO:Importing untrained model
+2023-04-14 01:43:16,011:INFO:Declaring custom model
+2023-04-14 01:43:16,012:INFO:Exponential Smoothing Imported successfully
+2023-04-14 01:43:16,012:INFO:Starting cross validation
+2023-04-14 01:43:16,013:INFO:Cross validating with ExpandingWindowSplitter(fh=ForecastingHorizon([ 1,  2,  3,  4,  5,  6,  7,  8,  9, 10, 11, 12, 13, 14, 15, 16, 17,
+            18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34,
+            35, 36],
+           dtype='int64', is_relative=True),
+            initial_window=None, step_length=36), n_jobs=-1
+2023-04-14 01:43:16,233:INFO:Calculating mean and std
+2023-04-14 01:43:16,233:INFO:Creating metrics dataframe
+2023-04-14 01:43:16,237:INFO:Finalizing model
+2023-04-14 01:43:16,402:INFO:Uploading results into container
+2023-04-14 01:43:16,403:INFO:master_model_container: 32
+2023-04-14 01:43:16,403:INFO:display_container: 14
+2023-04-14 01:43:16,403:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:43:16,403:INFO:create_model() successfully completed......................................
+2023-04-14 01:43:16,540:INFO:master_model_container: 32
+2023-04-14 01:43:16,540:INFO:display_container: 13
+2023-04-14 01:43:16,540:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:43:16,541:INFO:finalize_model() succesfully completed......................................
+2023-04-14 01:43:16,673:WARNING:predict_model >> Prediction Indices do not match test indices. Metrics will not be displayed.
+2023-04-14 01:45:43,885:INFO:Initializing save_model()
+2023-04-14 01:45:43,885:INFO:save_model(model=ExponentialSmoothing(seasonal='mul', sp=12, trend='add'), model_name=exp_smooth_model, prep_pipe_=None, verbose=True, use_case=MLUsecase.TIME_SERIES, kwargs={})
+2023-04-14 01:45:43,885:INFO:Adding model into prep_pipe
+2023-04-14 01:45:43,886:WARNING:Only Model saved. Transformations in prep_pipe are ignored.
+2023-04-14 01:45:43,890:INFO:exp_smooth_model.pkl saved in current working directory
+2023-04-14 01:45:43,890:INFO:ExponentialSmoothing(seasonal='mul', sp=12, trend='add')
+2023-04-14 01:45:43,890:INFO:save_model() successfully completed......................................
